@@ -1,1 +1,21 @@
-/*  your css code here. If applicable */
+.grid{
+    display: inline-grid;
+    box-shadow: 2px,2px,4px,#e7e7e7;
+    background-color: #e7e7e7;
+    padding: 10px;
+    grid-template-columns: repeat(3,100px);
+    border: 2px red;
+    gap: 2px;
+
+}
+.grid-Item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    transition: 1s;
+}
+.grid div{
+    height: 100px;
+    background-color: white;
+}
